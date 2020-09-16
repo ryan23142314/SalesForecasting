@@ -15,6 +15,7 @@ https://templatemo.com/tm-542-new-vision
     
 */
 
+
 ul, h1, h2, h3, h4, p, figure {
     padding: 0;
     margin: 0;
@@ -44,7 +45,17 @@ p {
     color: #666;
     line-height: 1.9;
 }
-
+input{
+  width : 70px;
+}
+td{
+  width : 70px;
+}
+select{
+  margin-left : 50px;
+  border-width: 5px;
+  border-color: #E1000F;
+}
 .tm-color-primary { color: #09F; }
 
 .navbar-toggler {
@@ -90,16 +101,17 @@ p {
 }
 
 .tm-main-bg {
-    background-image: url(../img/new-vision-01.jpg);
+    background-image: url(../img/henkelBig2.jpg);
     background-repeat: no-repeat;
     background-position: 45% top;
-    height: 800px;
-    min-height: 500px;
-    margin-left: -40px;
-    margin-right: -40px;
+    height: 300px;
+    min-height: 1px;
+    margin-left: -10px;
+    margin-right: -10px;
 }
 
-.tm-about-bg { background-image: url(../img/new-vision-02.jpg); }
+.tm-about-bg { background-image: url(../img/new-vision-02.jpg);
+              height:150px; }
 .tm-services-bg { background-image: url(../img/new-vision-03.jpg); }
 .tm-contact-bg { background-image: url(../img/new-vision-04.jpg); }
 
@@ -147,7 +159,7 @@ nav > ul > li { list-style: none; }
 .nav-item .tm-nav-link:hover,
 .nav-item.active .tm-nav-link {
     color: #000;
-    border-bottom: 5px solid #09F;
+    border-bottom: 5px solid #E1000F;
     border-left: none;
 }
 
@@ -234,7 +246,7 @@ nav > ul > li { list-style: none; }
 
 .tm-section-header {
     display: inline-block;
-    background-color: #c99;
+    background-color: #E1000F;
     color: white;
     padding: 30px 90px 30px 30px;
     margin: 0;
@@ -315,7 +327,7 @@ nav > ul > li { list-style: none; }
 }
 
 .tm-article-icon {
-    color: #C99;
+    color: #E1000F;
     margin-top: 20px;
     margin-bottom: 40px;
 }
@@ -334,7 +346,7 @@ nav > ul > li { list-style: none; }
 .tm-article-link { align-self: flex-end; }
 
 .tm-btn {
-    background-color: #C99;
+    background-color: #E1000F;
     color: white;
     padding: 10px 25px;
 }
@@ -406,7 +418,7 @@ footer a:hover {
   overflow: hidden;
   margin-left: 20px;
   margin-right: 20px;
-  background: #3085a3;
+  background: #E1000F;
   text-align: center;
   cursor: pointer;
 }
@@ -499,7 +511,7 @@ figure.effect-honey figcaption::before {
   left: 0;
   width: 100%;
   height: 10px;
-  background: #3496d8;
+  background: #E1000F;
   content: "";
   -webkit-transform: translate3d(0, 10px, 0);
   transform: translate3d(0, 10px, 0);
@@ -543,7 +555,7 @@ figure.effect-honey:hover h4 i {
 .tm-about { max-width: 975px; }
 
 .tm-about-icon {
-    color: #09F;
+    color: #000000;
     min-width: 235px;
     display: flex;
     justify-content: center;
